@@ -4,7 +4,7 @@ import unittest
 
 class TestCase(unittest.TestCase):
     def test_1(self):
-        prefixes = [4, 50, 51, 55, 56, 2220, 2221, 2720, 2721, 33, 34, 35, 37, 38]
+        prefixes = [4, 4, 50, 51, 55, 56, 2220, 2221, 2720, 2721, 33, 34, 35, 37, 38]
         lengths = [14, 15, 16, 17]
         tests_to_generate = 500000
         for i in range(tests_to_generate):
